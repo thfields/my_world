@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+html {
+  scroll-behavior: smooth;
+ 
+}
+* {
+  margin: 0;
+}
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #060511;
+  background-image: url(../src/Assets/bars.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#preloader-none {
+  opacity: 0;
+}
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#345575 ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2499c7;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.911);
+  border-radius: 12px;
+}
+
+.btn-primary {
+  --bs-btn-border-color: #2499c7;
+  --bs-btn-bg: #2499c7;
+  --bs-btn-border-color: #2499c7;
+  --bs-btn-hover-color: none;
+  --bs-btn-hover-bg: #2499c7;
+  --bs-btn-hover-border-color: #2499c7;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: none;
+  --bs-btn-active-bg: none
+  --bs-btn-active-border-color: none;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: none;
+  --bs-btn-disabled-bg: none;
+  --bs-btn-disabled-border-color: none; /* Sua cor personalizada */
+  
+}
+
+.skilllist {
+  font-weight: 600;
+  list-style-type: none;
+  font-family: 'Poppins';
+  color: var(--font-color);
+}
+@media (max-width: 767px) {
+  
+}
