@@ -8,8 +8,7 @@ function Text() {
       options={{
         strings: [
           "Estudante",
-          "Front End Developer",
-          "Back End Developer",
+          "Full Stack Developer",
           
         ],
         autoStart: true,

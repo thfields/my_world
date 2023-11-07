@@ -20,7 +20,10 @@ function Aboutpage() {
                             <br/>
                             <br/>
                             Sou apaixonado por conhecimento e me encontrei na área de desenvolvimento de sistemas,
-                            acho fascinante o avanço da tecnologia e as novidades que surgem diariamente,
+                            pois gosto de desvendar desafios e tenho uma curiosidade que me move a aprender constantemente.
+                            <br/>
+                            <br/>
+                            Acho fascinante o avanço da tecnologia e as novidades que surgem diariamente,
                             então, me sinto no dever de participar e colaborar com esses avanços.
                             <br/> 
                             <br/> 
