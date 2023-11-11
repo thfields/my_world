@@ -35,8 +35,8 @@ function Projectlist() {
                 imgPath={geeks}
                 isBlog={false}
                 title="Geeks IFRN"
-                description="Site em produção do projeto de extensão IFRN Geeks, que tem como objetivo ensinar sobre informática, robótica e programação. Feito em HTML, CSS e JavaScript, utilizando o NodeJS e NextJS para o backend. "
-                ghLink="https://geeks.par.ifrn.edu.br/"
+                description="Site do projeto de extensão IFRN Geeks, que tem como objetivo ensinar sobre informática, robótica e programação. Feito em HTML, CSS e JavaScript, utilizando o NodeJS e NextJS para o backend. "
+                ghLink="https://thfields.github.io/Site_Geeks_IFRN/"
               />
             </Col>
 
