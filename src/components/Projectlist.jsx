@@ -1,6 +1,7 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
 import geeks from '/src/assets/images/geeks.png';
+import plugin from '/src/assets/images/plugin.png';
 import adminpanel from '/src/assets/images/upload.png';
 import olximage from "/src/assets/images/summary.png";
 import netfliximage from "/src/assets/images/quiz.png";
@@ -35,8 +36,18 @@ function Projectlist() {
                 imgPath={geeks}
                 isBlog={false}
                 title="Geeks IFRN"
-                description="Site em produção do projeto de extensão IFRN Geeks, que tem como objetivo ensinar sobre informática, robótica e programação. Feito em HTML, CSS e JavaScript, utilizando o NodeJS e NextJS para o backend. "
-                ghLink="https://geeks.par.ifrn.edu.br/"
+                description="Site do projeto de extensão IFRN Geeks, que tem como objetivo ensinar sobre informática, robótica e programação. Feito em HTML, CSS e JavaScript, utilizando o NodeJS e NextJS para o backend. "
+                ghLink="https://thfields.github.io/Site_Geeks_IFRN/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={plugin}
+                isBlog={false}
+                title="Plugin Slideshow WordPress"
+                description="Neste projeto, desenvolvi um plugin para passar slides no WordPress usando APIs e classes nativas. "
+                ghLink="https://github.com/thfields/plugin_mvslider_wordpress"
               />
             </Col>
 
