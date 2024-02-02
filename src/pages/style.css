@@ -481,6 +481,8 @@
 }
 .card-text{
   font-family: 'Poppins';
+  max-height: 310px;
+  overflow: hidden;
 }
 .project-card-view {
   box-shadow: rgba(36, 153, 199, 0.1) 0px 4px 16px,
@@ -495,6 +497,8 @@
   border-radius: 15px;
 }
 .project-card-view:hover {
+  color: var(--font-color) !important;
+  background: var(--gradient-button-bg);
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: rgba(76, 76, 87, 0.1) 0px 4px 16px,

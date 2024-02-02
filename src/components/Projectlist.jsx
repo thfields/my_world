@@ -2,6 +2,7 @@ import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
 import geeks from '/src/assets/images/geeks.png';
 import plugin from '/src/assets/images/plugin.png';
+import ecommerce from '/src/assets/images/ecommerce.png';
 import adminpanel from '/src/assets/images/upload.png';
 import olximage from "/src/assets/images/summary.png";
 import netfliximage from "/src/assets/images/quiz.png";
@@ -26,7 +27,7 @@ function Projectlist() {
                 imgPath={helpdesk}
                 isBlog={false}
                 title="Sistema Help Desk"
-                description="Projeto de uma aplicação web completa, CRUD de um sistema de gerenciamento de Ordens de Serviço. Criação de uma API Rest usando Spring Boot e banco de dados em memória, usando Spring Data JPA com Hibernate, usando também validação de dados, tratamento de exceções, uso adequado do protocolo HTTP no padrão REST, MVC e DTO. Utilizando Angular 16 e inserindo conceitos do Orientação a Objetos no Typescript construindo com a arquitetura MVC do Angular, os componentes visuais do Angular Material, Angular reactive forms, navegação."
+                description="Projeto de uma aplicação web completa, CRUD de um sistema de gerenciamento de Ordens de Serviço. API Rest usando Spring Boot e banco de dados em memória, usando Spring Data JPA com Hibernate, usando também validação de dados, tratamento de exceções, uso adequado do protocolo HTTP no padrão REST, MVC e DTO. Utilizando Angular 16 e inserindo conceitos do Orientação a Objetos no Typescript construindo com a arquitetura MVC, os componentes visuais do Angular Material e Angular reactive forms."
                 ghLink="https://sistema-help-desk-qdz4bo34c-thiago-campos-projects.vercel.app/"
               />
             </Col>
@@ -38,6 +39,16 @@ function Projectlist() {
                 title="Geeks IFRN"
                 description="Site do projeto de extensão IFRN Geeks, que tem como objetivo ensinar sobre informática, robótica e programação. Feito em HTML, CSS e JavaScript, utilizando o NodeJS e NextJS para o backend. "
                 ghLink="https://thfields.github.io/Site_Geeks_IFRN/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={ecommerce}
+                isBlog={false}
+                title="E-Commerce IFRN"
+                description="É uma aplicação web desenvolvida em Angula como projeto da disciplina Desenvolvimento Web Front-End com o objetivo de consumir uma API externa, desenvolver um CRUD e utilizando o paradigma de orientação a objetos."
+                ghLink="https://e-commerce-angular-ifrn.vercel.app/"
               />
             </Col>
 
