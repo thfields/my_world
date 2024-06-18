@@ -12,6 +12,7 @@ import todolist from "/src/assets/images/crudjs.png";
 import cadastro from "/src/assets/images/cadastro.png";
 import helpdesk from "/src/assets/images/helpdesk.png";
 import consulta from "/src/assets/images/consulta.png";
+import tasklist from "/src/assets/images/tasklist.png";
 import "../pages/style.css";
 
 
@@ -21,6 +22,16 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={tasklist}
+                isBlog={false}
+                title="Tasklist"
+                description="Este um projeto de uma aplicação de gerenciamento de tarefas. Ele oferece uma API RESTful para criar, visualizar, atualizar e excluir tarefas. Onde utilizei o NodeJS para o Backend, ReactJS para o Frontend e o MongoDB para o Banco de Dados."
+                ghLink="https://tasklist-hazel-delta.vercel.app/"
+              />
+            </Col>
 
           <Col md={4} className="project-card">
               <ProjectCard
