@@ -13,6 +13,7 @@ import cadastro from "/src/assets/images/cadastro.png";
 import helpdesk from "/src/assets/images/helpdesk.png";
 import consulta from "/src/assets/images/consulta.png";
 import tasklist from "/src/assets/images/tasklist.png";
+import chat from "/src/assets/images/whatsapp.png";
 import "../pages/style.css";
 
 
@@ -65,11 +66,11 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={plugin}
+                imgPath={chat}
                 isBlog={false}
-                title="Plugin Slideshow WordPress"
-                description="Neste projeto, desenvolvi um plugin para passar slides no WordPress usando APIs e classes nativas. "
-                ghLink="https://github.com/thfields/plugin_mvslider_wordpress"
+                title="Chat-Zapdiviser"
+                description="Projeto freelancer de um chat para atendimento ao cliente. Utilizando o framework ReactJS."
+                ghLink="https://chat-zapdiviser.vercel.app/"
               />
             </Col>
 
@@ -140,6 +141,16 @@ function Projectlist() {
                 title="Cadastro de Usuário"
                 description="Projeto de criando API de cadastro de usuários utilizando Spring Boot com o padrão MVC e o banco de dados MySQL com fins para aprendizado na criação de API."
                 ghLink="https://thfields.github.io/JavaAPI/frontend/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={plugin}
+                isBlog={false}
+                title="Plugin Slideshow WordPress"
+                description="Neste projeto, desenvolvi um plugin para passar slides no WordPress usando APIs e classes nativas. "
+                ghLink="https://github.com/thfields/plugin_mvslider_wordpress"
               />
             </Col>
 
