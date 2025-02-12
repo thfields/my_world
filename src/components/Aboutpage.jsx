@@ -12,13 +12,13 @@ function Aboutpage() {
                     <Col md={7}>
                         <h3 className='aboutmetext'>Sobre <span>Mim</span></h3>
                         <p className='aboutdetails'>
-                            Sou graduando no tecnólogo do IFRN e atuo como desenvolvedor full stack na própria instituição.
+                            Sou graduando no tecnólogo do IFRN e atuo como desenvolvedor full stack na própria instituição há mais de 1 ano.
                         </p>
                         <p className='aboutdetails'>
-                            Além disso, possuo experiência profissional em banco de dados, manutenção e redes.
+                            Além disso, possuo experiência profissional em suporte em banco de dados, manutenção e redes.
                         </p>
                         <p className='aboutdetails'>
-                            Tenho 27 anos e sou apaixonado por conhecimento. Me encontrei na área de desenvolvimento de sistemas, pois gosto de desvendar desafios e tenho uma curiosidade que me move a aprender constantemente.
+                            Sou apaixonado por conhecimento. Me encontrei na área de desenvolvimento de sistemas, pois gosto de desvendar desafios e tenho uma curiosidade que me move a aprender constantemente.
                         </p>
                         <p className='aboutdetails'>
                             Acho fascinante o avanço da tecnologia e as novidades que surgem diariamente, então, me sinto no dever de participar e colaborar com esses avanços.

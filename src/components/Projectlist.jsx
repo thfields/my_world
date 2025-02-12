@@ -14,6 +14,7 @@ import helpdesk from "/src/assets/images/helpdesk.png";
 import consulta from "/src/assets/images/consulta.png";
 import tasklist from "/src/assets/images/tasklist.png";
 import chat from "/src/assets/images/whatsapp.png";
+import nexfin from "/src/assets/images/nexfin.png";
 import "../pages/style.css";
 
 
@@ -23,6 +24,16 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={nexfin}
+                isBlog={false}
+                title="Nexfin"
+                description="Site freelancer desenvolvido para a Nexfin em WordPress, incluindo migração, configuração da hospedagem na HostGator e publicado via cPanel. O site está em produção, oferencendo uma experiência moderna e responsiva."
+                ghLink="https://nexfinai.com/"
+              />
+            </Col>
 
           <Col md={4} className="project-card">
               <ProjectCard
